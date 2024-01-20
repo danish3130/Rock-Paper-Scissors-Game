@@ -29,8 +29,8 @@ public class RockPaperScissors {
                 int computerIndex = random.nextInt(3);
                 String computerMove = choices[computerIndex];
 
-                System.out.println("You chose: " + userMove);
-                System.out.println("Computer chose: " + computerMove);
+                System.out.println("You choice: " + userMove);
+                System.out.println("Computer choice: " + computerMove);
 
                 // Determine the winner
                 if (userMove.equals(computerMove)) {
